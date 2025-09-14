@@ -27,7 +27,6 @@ tools = DetectiveTools(
 print(tools.interview_witness("Nisha"))
 print(tools.review_traffic_cctv("Parking B", "20:10-20:20"))
 print(tools.interrogate_suspect("Neeraj the Volunteer"))
-print(tools.interrogate_suspect_3rd_degree("Neeraj the Volunteer"))  # enabled in select cases
 ```
 
 **Input rules (strict):**
