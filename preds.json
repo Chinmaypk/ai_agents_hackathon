@@ -1,0 +1,19 @@
+{
+  "canteen_cashbox_theft": {
+    "culprit": "Rohan the Helper",
+    "steps": [
+      { "action": "interview_witness", "args": { "witness_name": "Kirti" } },
+      { "action": "review_traffic_cctv", "args": { "location": "Lot B", "timeframe": "10:00-10:10" } },
+      { "action": "check_vehicle_registration", "args": { "vehicle_number": "GJ01 AB 1234" } },
+      { "action": "interrogate_suspect", "args": { "suspect_name": "Rohan the Helper" } }
+    ]
+  },
+  "library_book_theft": {
+    "culprit": "Priya the Assistant",
+    "steps": [
+      { "action": "interview_witness", "args": { "witness_name": "Arun" } },
+      { "action": "review_traffic_cctv", "args": { "location": "Main Exit", "timeframe": "17:55-18:10" } },
+      { "action": "interrogate_suspect", "args": { "suspect_name": "Priya the Assistant" } }
+    ]
+  }
+}
