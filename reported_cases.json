@@ -23,16 +23,6 @@
         ]
       },
       {
-        "case_id": "hostel_laptop_missing",
-        "description": "A first-year student’s laptop vanishes from Hostel A.",
-        "initial_clue": "Router admin notes a new device joined Wi-Fi around 00:43.",
-        "suspects": [
-          "Arun the Senior",
-          "Meera the Floor Rep",
-          "Vivek the Delivery Agent"
-        ]
-      },
-      {
         "case_id": "missing_ganesh_idol",
         "description": "The sacred Ganesh idol is stolen from a Mumbai temple shrine overnight.",
         "initial_clue": "Witness Chaiwala Ram saw a white Maruti Swift speeding away at midnight.",
@@ -130,16 +120,6 @@
           "Mohan the Fresher",
           "Sita the Cashier",
           "Arjun the NCC Cadet"
-        ]
-      },
-      {
-        "case_id": "stolen_science_fair_model",
-        "description": "A student’s volcano model disappears before the science fair.",
-        "initial_clue": "Teacher spots someone with a large box headed to the parking lot.",
-        "suspects": [
-          "Dev the Competitor",
-          "Anjali the Lab Helper",
-          "Rohit the Volunteer"
         ]
       },
       {
