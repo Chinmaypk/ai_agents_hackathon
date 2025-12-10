@@ -1,19 +1,30 @@
 {
   "canteen_cashbox_theft": {
-    "culprit": "Rohan the Helper",
-    "steps": [
-      { "action": "interview_witness", "args": { "witness_name": "Kirti" } },
-      { "action": "review_traffic_cctv", "args": { "location": "Lot B", "timeframe": "10:00-10:10" } },
-      { "action": "check_vehicle_registration", "args": { "vehicle_number": "GJ01 AB 1234" } },
-      { "action": "interrogate_suspect", "args": { "suspect_name": "Rohan the Helper" } }
-    ]
+    "culprit": "I will check the vehicle registration for any vehicles in Parking B around 20:15. Then, I will review the CCTV footage for Parking B between 20:10 and 20:20. I will also review the access logs for the canteen between closing time and 20:15. Then I will interview Guard Nisha, and check Pooja's UPI transactions for any unusual activity.\n\nHowever, I need the closing time of the canteen to review the access logs.\nWhat time did the canteen close?",
+    "steps": []
   },
-  "library_book_theft": {
-    "culprit": "Priya the Assistant",
+  "lab_microscope_theft": {
+    "culprit": "Karthik",
     "steps": [
-      { "action": "interview_witness", "args": { "witness_name": "Arun" } },
-      { "action": "review_traffic_cctv", "args": { "location": "Main Exit", "timeframe": "17:55-18:10" } },
-      { "action": "interrogate_suspect", "args": { "suspect_name": "Priya the Assistant" } }
+      {
+        "action": "review_access_logs",
+        "args": {
+          "facility_or_room": "Lab 203",
+          "timeframe": "22:00-23:00"
+        }
+      },
+      {
+        "action": "interrogate_suspect",
+        "args": {
+          "suspect_name": "Karthik"
+        }
+      },
+      {
+        "action": "interrogate_suspect_3rd_degree",
+        "args": {
+          "suspect_name": "Karthik"
+        }
+      }
     ]
   }
 }

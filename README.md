@@ -59,9 +59,22 @@ The autograder prints **only** the final score (0–100). Scoring adds bonuses b
 
 ---
 
+## 3b) LangChain usage
+If you want to plug these tools into a LangChain agent:
+
+```python
+from agent_tools import DetectiveTools
+
+tools_client = DetectiveTools(case_id="canteen_cashbox_theft", match_mode="smart")
+tools = tools_client.as_langchain_tools()  # List[StructuredTool]
+```
+
+Pass `tools` into your agent/executor along with the current `case_id` context. Tool descriptions now live in the docstrings, and errors/no-matches raise `ToolException` when used via `as_langchain_tools` so agents can retry or correct inputs.
+
+---
+
 ## 4) Troubleshooting
 - `ModuleNotFoundError: agent_tools` → run from the repo root or add it to `PYTHONPATH`.
 - “Unknown action/case” → that tool may not be enabled for the current case or the case_id is wrong.
 - No dataset found → ensure an `.agt` (or JSON) file is in the repo root.
-
 
