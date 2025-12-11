@@ -38,11 +38,6 @@
         "initial_clue": "Librarian Meera noticed the manuscript missing during morning inventory."
       },
       {
-        "case_id": "exam_paper_leak",
-        "description": "Confidential board exam papers are leaked from the education office.",
-        "initial_clue": "Clerk Rajesh found torn paper bits near the copier."
-      },
-      {
         "case_id": "temple_donation_box_theft",
         "description": "Coins vanish from a locked donation box at a Chennai temple during the festival.",
         "initial_clue": "Priest Ranganathan found the box unlocked with mud smudges around."

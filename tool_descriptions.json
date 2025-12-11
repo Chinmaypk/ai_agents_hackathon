@@ -1,6 +1,6 @@
 {
   "conventions": {
-    "names": "Use full names (>=4 letters in a token). No typos or prefixes.",
+    "names": "Use first names (>=4 letters in a token). No typos or prefixes.",
     "timeframe": "HH:MM-HH:MM or h[:mm]am/pm-h[:mm]am/pm; overnight allowed.",
     "plates": "Spacing/dashes/case ignored.",
     "phones": "Country code optional; matching uses ending digits."
@@ -18,7 +18,7 @@
     },
     {
       "name": "review_traffic_cctv",
-      "description": "Traffic/CCTV summary for an area during a window.",
+      "description": "Traffic/CCTV summary for an area during a time window.",
       "args": [
         {
           "name": "location",
@@ -32,24 +32,10 @@
     },
     {
       "name": "check_vehicle_registration",
-      "description": "Vehicle / owner lookup.",
+      "description": "Get the owner of a vehicle by its registration number.",
       "args": [
         {
           "name": "vehicle_number",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "collect_evidence",
-      "description": "Collect/report physical evidence.",
-      "args": [
-        {
-          "name": "location",
-          "type": "string"
-        },
-        {
-          "name": "evidence_type",
           "type": "string"
         }
       ]
@@ -59,24 +45,14 @@
       "description": "Fingerprint analysis outcome.",
       "args": [
         {
-          "name": "sample_id",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "trace_mobile_number",
-      "description": "Basic trace: subscriber / last tower.",
-      "args": [
-        {
-          "name": "mobile_number",
+          "name": "object",
           "type": "string"
         }
       ]
     },
     {
       "name": "review_access_logs",
-      "description": "Badge/door logs for a room & time window.",
+      "description": "Access logs for a facility/room in a time window.",
       "args": [
         {
           "name": "facility_or_room",
@@ -89,36 +65,8 @@
       ]
     },
     {
-      "name": "review_wifi_logs",
-      "description": "Devices seen by Wi‑Fi near area in a window.",
-      "args": [
-        {
-          "name": "area",
-          "type": "string"
-        },
-        {
-          "name": "timeframe",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "check_upi_transactions",
-      "description": "UPI activity summary for a party in a window.",
-      "args": [
-        {
-          "name": "party_name",
-          "type": "string"
-        },
-        {
-          "name": "timeframe",
-          "type": "string"
-        }
-      ]
-    },
-    {
       "name": "interrogate_suspect",
-      "description": "Question a suspect (may be evasive).",
+      "description": "Standard interrogation of a suspect.",
       "args": [
         {
           "name": "suspect_name",
