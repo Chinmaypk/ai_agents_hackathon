@@ -24,7 +24,7 @@
       },
       {
         "case_id": "missing_jewelry_box",
-        "description": "A family’s heirloom jewelry box disappears from their Pune bungalow.",
+        "description": "A family's heirloom jewelry box disappears from their Pune bungalow.",
         "initial_clue": "Housemaid Seema saw footprints leading from the garden to the servant quarters."
       },
       {
@@ -34,7 +34,7 @@
       },
       {
         "case_id": "library_book_theft",
-        "description": "A rare manuscript is stolen from the Delhi Public Library’s restricted section.",
+        "description": "A rare manuscript is stolen from the Delhi Public Library's restricted section.",
         "initial_clue": "Librarian Meera noticed the manuscript missing during morning inventory."
       },
       {
@@ -54,7 +54,7 @@
       },
       {
         "case_id": "disappearance_of_tiffin",
-        "description": "A delivery person’s signature tiffin is reported missing in a busy neighborhood.",
+        "description": "A delivery person's signature tiffin is reported missing in a busy neighborhood.",
         "initial_clue": "Shopkeeper Mehul saw a stray dog dragging a tiffin outside the shop."
       },
       {

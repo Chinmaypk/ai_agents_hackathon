@@ -33,7 +33,8 @@ class DetectiveTools:
 
         # Validate action is enabled for this case (do not list enabled actions)
         if action_name not in self._db.actions_for_case(self.case_id):
-            return "[error] This action is not available for the current case."
+            return "No useful information found. Time wasted."
+            # return "[error] This action is not available for the current case."
 
         # Build ordered args (with alias canonicalization)
         try:
