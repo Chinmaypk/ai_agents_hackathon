@@ -1,4 +1,4 @@
-# AI Agents Workshop - Quick Start
+# AI Agents Hackathon
 
 Short guide to run the cases, use the tools, and grade predictions.
 
