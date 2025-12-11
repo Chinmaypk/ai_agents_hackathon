@@ -163,8 +163,8 @@ def compute_score(preds: Dict[str, Any], data: Dict[str, Any], ref_steps_map: Op
 
     # Weights
     BASE_CORRECT = 2.0     # correct culprit
-    BONUS_EQUAL   = 0.50   # k_pred == k_ref
-    BONUS_FEWER   = 1.0   # k_pred <  k_ref (brownie points)
+    BONUS_EQUAL   = 0 # 0.50   # k_pred == k_ref
+    BONUS_FEWER   = 0 # 1.0   # k_pred <  k_ref (brownie points)
     BONUS_MORE    = 0.0   # k_pred >  k_ref (some score)
     PER_CASE_MAX  = BASE_CORRECT + BONUS_FEWER
 
