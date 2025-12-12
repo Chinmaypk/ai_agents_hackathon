@@ -57,6 +57,9 @@ python autograder_minimal.py  -p preds.json
 ```
 The autograder prints **only** the final score (0–100). Scoring adds bonuses based on your step count vs. the reference.
 
+
+Google form for submission:
+https://forms.gle/cJWhTe3P9ygDhM6k7
 ---
 
 ## 4) Troubleshooting
